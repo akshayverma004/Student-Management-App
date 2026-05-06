@@ -8,7 +8,12 @@
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-</properties>
+  
+    <sonar.projectKey>Student-Management-App</sonar.projectKey>
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.login>squ_9c69a4bf8235cb9819629d6b3b68143adc6a39d9</sonar.login>
+  </properties>
+
   <dependencies>
         <!-- Servlet API -->
         <dependency>
@@ -31,6 +36,13 @@
     		<artifactId>maven-war-plugin</artifactId>
     		<version>3.3.2</version>
 		</plugin>
+		
+		<plugin>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.10.0.2594</version>
+		</plugin>
+		
     </plugins>
     </build>
 </project>
