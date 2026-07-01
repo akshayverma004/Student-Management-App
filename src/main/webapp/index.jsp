@@ -12,7 +12,7 @@
 	crossorigin="anonymous">
 </head>
 <body>
-	<h2>WELCOME TO THE AAKSASH INSTITUTE</h2>
+	<h2>WELCOME TO THE PAATAL LOK INSTITUTE!</h2>
 	<a href="students">Go to Student Management</a>
 	<br>
 	<table class="table">
